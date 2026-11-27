@@ -3,13 +3,13 @@ import { ref, watch } from 'vue'
 
 const STORAGE_KEY = 'tabela-brasil:rodadas'
 
-export const timesBase = [
-  { id: 'flamengo', nome: 'Flamengo', sigla: 'FLA', escudo: 'flamengo.png', cor: '#d62828' },
-  { id: 'palmeiras', nome: 'Palmeiras', sigla: 'PAL', escudo: 'palmeiras.png', cor: '#087f5b' },
-  { id: 'botafogo', nome: 'Botafogo', sigla: 'BOT', escudo: 'botafogo.png', cor: '#252525' },
-  { id: 'fortaleza', nome: 'Fortaleza', sigla: 'FOR', escudo: 'fortaleza.png', cor: '#2563eb' },
-  { id: 'saopaulo', nome: 'São Paulo', sigla: 'SAO', escudo: 'saopaulo.png', cor: '#c92a2a' },
-  { id: 'bahia', nome: 'Bahia', sigla: 'BAH', escudo: 'bahia.png', cor: '#2563eb' }
+const timesBase = [
+  { id: 1, nome: 'Flamengo', sigla: 'FLA', escudo: 'Flamengo.jpg' },
+  { id: 2, nome: 'Palmeiras', sigla: 'PAL', escudo: 'Palmeiras.jpg' },
+  { id: 3, nome: 'Botafogo', sigla: 'BOT', escudo: 'Botafogo.jpg' },
+  { id: 4, nome: 'Atlético Mineiro', sigla: 'CAM', escudo: 'Atletico Mineiro.jpg' },
+  { id: 5, nome: 'São Paulo', sigla: 'SAO', escudo: 'São Paulo.jpg' },
+  { id: 6, nome: 'Corinthians', sigla: 'COR', escudo: 'Corinthians.jpg' }
 ]
 
 const confrontosPrimeiroTurno = [
