@@ -4,12 +4,13 @@ import { ref, watch } from 'vue'
 const STORAGE_KEY = 'tabela-brasil:rodadas'
 
 const timesBase = [
-  { id: 1, nome: 'Flamengo', sigla: 'FLA', escudo: 'Flamengo.jpg' },
-  { id: 2, nome: 'Palmeiras', sigla: 'PAL', escudo: 'Palmeiras.jpg' },
-  { id: 3, nome: 'Botafogo', sigla: 'BOT', escudo: 'Botafogo.jpg' },
-  { id: 4, nome: 'Atlético Mineiro', sigla: 'CAM', escudo: 'Atletico Mineiro.jpg' },
-  { id: 5, nome: 'São Paulo', sigla: 'SAO', escudo: 'São Paulo.jpg' },
-  { id: 6, nome: 'Corinthians', sigla: 'COR', escudo: 'Corinthians.jpg' }
+  { id: 1, nome: 'Flamengo', sigla: 'FLA', escudo: 'Flamengo.png' },
+  { id: 2, nome: 'Palmeiras', sigla: 'PAL', escudo: 'Palmeiras.png' },
+  { id: 3, nome: 'Atlético Mineiro', sigla: 'CAM', escudo: 'Atletico Mineiro.png' },
+  { id: 4, nome: 'Fluminense', sigla: 'FLU', escudo: 'Fluminense.png' },
+  { id: 5, nome: 'São Paulo', sigla: 'SAO', escudo: 'São Paulo.png' },
+  { id: 6, nome: 'Corinthians', sigla: 'COR', escudo: 'Corintians.png' },
+  { id: 7, nome: 'Santos', sigla: 'SAN', escudo: 'Santos.png' }
 ]
 
 const confrontosPrimeiroTurno = [
